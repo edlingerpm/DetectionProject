@@ -38,6 +38,7 @@ nom = './Images/images_Visage.jpg'
 cap = Rtp.choixCamera()
 
 # choix du fichier haarcascade
+
 face_cascade=cv2.CascadeClassifier("./Haarcascade/haarcascade_frontalface_alt2.xml")
 
 largeurFenetre = int(cap.get(3))
@@ -84,7 +85,7 @@ while True:
                 try:
                     #enregistrement de l'image
                     cv2.imwrite(nom,frame)
-                    #print("image créée!")
+                    print("Visage au centre de l'image. Photo prise.")
                     # fermeture du programme ou pas
                     #continuation = False
                 except:

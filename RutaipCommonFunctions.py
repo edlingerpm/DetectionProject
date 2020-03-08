@@ -9,6 +9,10 @@ import cv2
 import pygame
 import tkinter
 from tkinter import messagebox
+import time
+
+def dormir(x):
+    time.sleep(x)
 
 #création d'un répertoire + nommage du fichier final
 def creationRepertoireImage():

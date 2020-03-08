@@ -9,7 +9,7 @@ import RutaipCommonFunctions as Rtp
 from datetime import datetime
 import time
 
-#time.sleep(5)
+time.sleep(5)
 
 TEMPSEXERCICE = 5
 
@@ -66,8 +66,8 @@ while True:
         Rtp.joueSon("./Sons/OpenEyes.mp3") 
     
     # for every eye, draw a blue rectangle
-    #for x, y, width, height in faces:
-    #    cv2.rectangle(frame, (x, y), (x + width, y + height), color=(255, 0, 0), thickness=2)
+    # for x, y, width, height in faces:
+    #     cv2.rectangle(frame, (x, y), (x + width, y + height), color=(255, 0, 0), thickness=2)
     cv2.imshow("image", frame)
     
     #On quitte lorsque la touche "q" est pressée

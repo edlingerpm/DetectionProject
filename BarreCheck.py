@@ -11,7 +11,7 @@ from datetime import datetime
 
 k=0
 TEMPSATTENTE = 5
-SURFACESIGNIFICATIVE = 35000
+SURFACESIGNIFICATIVE = 25000
 
 #Ouverture de la camera
 cap = Rtp.choixCamera()
@@ -113,7 +113,7 @@ while True:
                 ABouge=True
             
         if (ABouge==False):
-            print("You did'nt moved.")
+            print("You did'nt move.")
             
     #On affiche la video
     cv2.imshow('contour',frame)
